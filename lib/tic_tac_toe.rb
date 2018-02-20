@@ -1,8 +1,11 @@
 
 class TicTacToe
+  
   def initialize(board)
-    @board = Array.new(9, " ") # Creates an array with 9 elements 
+    @board = Array.new(9, " ") # Creates an array with 9 elements
   end
+
+  board = Array.new(9, " ") # Creates an array with 9 elements 
 
   def position_taken?(board, index)
     !(board[index].nil? || board[index] == " ")

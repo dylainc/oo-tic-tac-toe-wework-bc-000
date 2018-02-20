@@ -10,7 +10,7 @@ class TicTacToe
   end
 
   def display_board(board)
-    puts board
+    board
   end
 
   # Define your WIN_COMBINATIONS constant

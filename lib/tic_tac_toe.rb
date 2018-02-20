@@ -40,14 +40,14 @@ def valid_move?(index)
 end
 
 def turn
-  puts "Please select your position (1-9)"
+  puts "Please enter 1-9:"
   user_input = gets.strip
   index = input_to_index(user_input)
-  if valid_move?(index) == true
-    move(index, current_player)
+  if valid_move?(index)
+    move(index, current_player(board))
     display_board
   else
-    turn
+    turn(board)
   end
 end
 

@@ -1,7 +1,7 @@
 
 class TicTacToe
   def initialize(board)
-    @board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+    @board = Array.new(9, " ") # Creates an array with 9 elements 
   end
 
   def position_taken?(board, index)
@@ -115,5 +115,5 @@ class TicTacToe
 
 
 
-  
+
 end

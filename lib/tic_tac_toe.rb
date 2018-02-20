@@ -157,11 +157,8 @@ end
 def play(board)
 
   until over?(board) == true do
-<<<<<<< HEAD
+
     #input = gets
-=======
-    input = gets
->>>>>>> 8fc3b0f63a4e1e1b9abe63ab6df7e48fa119ad96
     turn(board)
   end
 
